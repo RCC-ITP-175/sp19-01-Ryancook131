@@ -31,6 +31,13 @@ ls -a
 #############################################################
 ls -l
 
+#:::PROFESSOR FEEDBACK:::
+# Correct answer ls -la or ls -al. 
+# You're missing the argument to include hidden files
+#::: END PROFESSOR FEEDBACK:::
+
+
+
 #############################################################
 #    What is the command to list all files and folders
 #    in a directory sorted by when they were last
@@ -65,11 +72,24 @@ mkdir week3
 #############################################################
 cd .
 
+# :::PROFESSOR FEEDBACK:::
+# Correct answer cd ..
+# In most terminals . refers to the current directory and
+# .. referrs to the parent of the current directory
+# :::END PROFESSOR FEEDBACK:::
+
 #############################################################
 #    You are in the /course/week2 directory and need
 #    to create an empty quiz.txt file. How do you do that?
 #############################################################
 cat quix.txt
+
+# :::PROFESSOR FEEDBACK:::
+# Correct answer touch quiz.txt or cat > quiz.txt
+# cat quiz.txt will display the contents of a pre-existing
+# file named quiz.txt
+# :::END PROFESSOR FEEDBACK:::
+
 
 #############################################################
 #    The directory you are working in currently has these files.
